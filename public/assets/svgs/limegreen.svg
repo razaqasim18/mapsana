@@ -1,0 +1,16 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 422 226"
+    id="vector">
+    <path
+        id="path"
+        d="M 13 15 L 422 15 L 422 196 C 422 212.569 408.569 226 392 226 L 13 226 L 13 15 Z"
+        fill="#627d83"
+        stroke-width="1"/>
+    <path
+        id="path_1"
+        d="M 0 20 C 0 8.954 8.954 0 20 0 L 409 0 L 409 191 C 409 202.046 400.046 211 389 211 L 0 211 L 0 20 Z"
+        fill="#00a81b"
+        fill-opacity="0.5"
+        stroke-width="1"/>
+</svg>

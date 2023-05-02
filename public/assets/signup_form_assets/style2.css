@@ -1,0 +1,619 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.step {
+	display: none;
+}
+
+.txtgreen {
+	color: #00a81b;
+}
+
+.signup_form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email_input {
+	width: 550px;
+	padding: 15px 10px 5px 10px;
+	border: 2px solid #335860;
+	border-radius: 10px;
+}
+
+.email_input:focus {
+	outline: none;
+	padding: 15px 10px 5px 10px;
+	border: 2px solid #335860;
+	border-radius: 10px;
+}
+
+.nameForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.name_input {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #335860;
+	outline: none !important;
+	width: 550px;
+	border-width: 2px;
+	padding: 0px 5px 5px 5px;
+}
+
+.email_input::placeholder {
+	color: #627d83;
+	font-size: 20px;
+	font-style: italic;
+	text-decoration: underline;
+	opacity: 0.8;
+}
+
+#pgone {
+	background: #d4eefe;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#pgone .whiteDiv {
+	background: white;
+	width: 700px;
+	height: 90vh;
+	/* padding: 2rem; */
+}
+
+#mystep1 .intro {
+	font-family: Merriweather;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 50px;
+	margin-top: 3rem;
+}
+
+#mystep1 .subintro {
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px !important;
+}
+
+#mystep1 .mainContent {
+	font-family: Merriweather;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 33.94px;
+	margin: 6rem 0;
+}
+
+#mystep1 .box1 {
+	display: flex;
+	justify-content: flex-end !important;
+	align-items: center;
+}
+
+#mystep1 .Paciente {
+	width: 270px;
+	height: 60px;
+	padding: 15px 0;
+	background: #d4eefe;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	margin-left: 2.8rem;
+}
+
+#mystep1 .Salud {
+	width: 270px;
+	height: 60px;
+	padding: 15px;
+	padding-left: 2rem;
+	border-radius: 10px;
+	background: #ffffff;
+	border: 2px solid black;
+}
+#mystep1 .endicon {
+	margin-top: 2.7rem;
+}
+#mystep1 .vamos {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 38px;
+}
+
+/* 1st pg end */
+
+/* 2nd pg start */
+
+.progressbar {
+	gap: 5px;
+	text-align: center;
+	font-size: 0.9em;
+}
+
+.img1 {
+	padding-left: 2.3rem;
+}
+
+.progressbar .stepIndicator {
+	position: relative;
+	flex: 1;
+	padding-bottom: 30px;
+}
+
+.progressbar .stepIndicator.active {
+	font-weight: 600;
+}
+
+.progressbar .stepIndicator.finish {
+	font-weight: 600;
+	color: #009688;
+}
+
+.progressbar .stepIndicator::before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	z-index: 9;
+	width: 20px;
+	height: 20px;
+	background-color: #d5efed;
+	border-radius: 50%;
+	border: 3px solid #ecf5f4;
+}
+
+.progressbar .stepIndicator.active::before {
+	background-color: #a7ede8;
+	border: 3px solid #d5f9f6;
+}
+
+.progressbar .stepIndicator.finish::before {
+	background-color: #009688;
+	border: 3px solid #b7e1dd;
+}
+
+.progressbar .stepIndicator::after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 8px;
+	width: 100%;
+	height: 3px;
+	background-color: #f3f3f3;
+}
+
+.progressbar .stepIndicator.active::after {
+	background-color: #a7ede8;
+}
+
+.progressbar .stepIndicator.finish::after {
+	background-color: #009688;
+}
+
+.progressbar .stepIndicator:last-child:after {
+	display: none;
+}
+
+#mystep2 .checkboxes {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 38px;
+	margin-left: 2.5rem;
+}
+
+#mystep2 .Aseguraremos {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 25px;
+	line-height: 31px;
+	text-align: center;
+	/* margin-bottom: 6rem; */
+}
+
+#mystep2 .form-check-input {
+	height: 21px;
+	width: 21px;
+	border: 1px solid grey;
+	border-radius: 0 !important;
+	margin: 6px;
+}
+
+#mystep2 .Siguente {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 38px;
+	margin-top: 2.1rem;
+}
+
+/* 2nd pg end */
+
+#mystep3 .Ahoratext {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 40px;
+	color: #372d21;
+}
+
+#mystep3 .borderdiv {
+	border: 3px solid #335860;
+	border-radius: 10px;
+	padding: 10px;
+	padding-bottom: 2px !important;
+	text-decoration: underline;
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	margin: 0 0 0 3.5rem;
+}
+
+#mystep3 .items {
+	padding: 0 3.5rem;
+}
+
+#mystep3 li {
+	list-style-type: none;
+}
+
+#mystep3 p {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 21px;
+}
+
+#mystep3 .Entendido {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 38px;
+	margin-bottom: 2rem;
+}
+
+/* 3rd pg end */
+
+/* 4th pg start */
+
+#mystep4 .myText,
+.middleText {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 27px;
+	line-height: 34px;
+}
+
+#mystep4 .myText,
+.middleText {
+	margin: 3.2rem 0;
+}
+
+#mystep4 .hrcol {
+	border-bottom: 2px solid #335860;
+	width: 500px;
+	margin-left: 5.5rem;
+}
+
+#mystep4 .bottomText {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+	color: #00a81b;
+}
+
+#mystep4 .Siguente {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 38px;
+	margin-top: 6.8rem;
+}
+
+/* 4th pg end */
+
+/* pg 5th start */
+
+#mystep5 .gracias {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 34px;
+	margin: 2.66rem 0;
+}
+
+#mystep5 .nacimiento {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 34px;
+}
+
+#mystep5 .myDate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 4rem 0 4rem 0;
+}
+
+#mystep5 .myDate input {
+	border: none;
+	width: 70px;
+	border-bottom: 1px solid gray;
+}
+
+.myDate select {
+	border: none;
+	border-bottom: 1px solid gray;
+}
+
+.myDate select:focus-visible {
+	outline: none !important;
+	border-bottom: 1px solid gray;
+}
+
+.myDate select {
+	appearance: none;
+	padding: 0 1.5rem;
+}
+
+.myDate option {
+	min-height: 20px !important;
+}
+
+#mystep5 .Siguente {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 38px;
+	margin-top: 4.6rem;
+}
+
+/* pg 5th end */
+
+/* pg 6 start */
+
+#mystep6 .ultima {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 34px;
+	margin: 3rem 0;
+}
+
+#mystep6 .Indícanos {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 34px;
+	margin: 2rem 0;
+}
+
+#mystep6 .myDate {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid grey;
+	width: 500px;
+	height: 100px;
+	padding-top: 1rem;
+	margin-left: 5rem;
+	border-radius: 20px;
+}
+
+#mystep6 .myDate input {
+	border: none;
+	border-bottom-style: dotted !important;
+	width: 70px;
+	border-bottom: 2px solid gray;
+}
+
+.myDate input:focus-visible {
+	outline: none !important;
+	border-bottom: 1px solid gray;
+}
+
+#mystep6 .Siguente {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 38px;
+	margin-top: 3.5rem;
+}
+
+#mystep6 .appears {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 19px;
+}
+/* pg 6 end */
+
+/* pg 7th start */
+
+#mystep7 .confirma {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 27px;
+	line-height: 34px;
+	margin: 1rem 0;
+}
+
+#mystep7 .fname::placeholder {
+	padding-left: 15rem;
+}
+
+.fname:focus {
+	box-shadow: none;
+}
+
+#mystep7 .dob::placeholder {
+	padding-left: 5.7rem;
+}
+.dob:focus {
+	box-shadow: none;
+}
+
+#mystep7 .run::placeholder {
+	padding-left: 6.7rem;
+}
+.run:focus {
+	box-shadow: none;
+}
+
+#mystep7 .form-control {
+	border: none;
+	border-radius: none !important;
+	border-bottom: 2px solid gray;
+}
+
+#mystep7 .checkboxes {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 10px 0 10px 0 !important;
+	padding: 0 2rem;
+}
+
+#mystep7 .form-check-input {
+	height: 21px;
+	width: 21px;
+	border: 1px solid grey;
+	border-radius: 0 !important;
+	margin: 6px;
+}
+
+#mystep7 .fname {
+	padding: 0 2rem;
+}
+
+#mystep7 .dob {
+	padding-left: 2.8rem;
+}
+
+#mystep7 .run {
+	padding-right: 2.8rem;
+}
+
+#mystep7 .email {
+	margin-left: 2rem;
+}
+.email:focus {
+	box-shadow: none;
+}
+
+#mystep7 .Unirse {
+	font-family: 'Merriweather';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 38px;
+	margin-top: 10px;
+}
+
+/* pg 7th end */
+
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 9px;
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 20px;
+	line-height: 20px;
+	display: block;
+	font-size: 10px;
+	color: #333;
+	background: #d4eefe;
+	border-radius: 10px;
+	margin: 0 auto 5px auto;
+	padding-left: 6px;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #d4eefe !important;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1;
+	/*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,
+#progressbar li.active:after {
+	background: #27ae60;
+	color: white;
+	padding-left: 6px;
+}
+/* #progressbar .stepIndicator {
+    background-color: #a7ede8;
+} */
+/* #progressbar .stepIndicator.active::after {
+    background-color: #a7ede8;
+} */
+
+@media (max-width: 320px) {
+	#pgone .whiteDiv {
+		background: white;
+		width: 700px;
+		height: 100vh;
+	}
+}
